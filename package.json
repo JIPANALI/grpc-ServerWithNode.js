@@ -1,0 +1,20 @@
+{
+  "name": "24..1-grpc(usingprotobuff)",
+  "version": "1.0.0",
+  "description": "<!-- What is RPC -->\r RPC stands for remote procedure call . As the name suggests, it lets you call a function in on a different process/server/backend and get back a response from it.\r Why remote procedure call?\r This is how we’ve made our backends talk to each other until now.\r We send out an http request , get back a response.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.11.1",
+    "@grpc/proto-loader": "^0.7.13"
+  },
+  "devDependencies": {
+    "grpc_tools_node_protoc_ts": "^5.3.3",
+    "grpc-tools": "^1.12.4"
+  }
+}
